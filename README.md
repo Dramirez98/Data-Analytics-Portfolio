@@ -9,7 +9,7 @@ This is a simple, end‑to‑end analysis I put together to practice turning ret
 - A few exported PNGs so you can scan the results quickly in the repo
 - A short write‑up of what I looked at and why
 
-**Workbook:** `data/RETAIL_ANALYTICS_COMPLETE.xlsx`
+**Workbook:** `Retail Analytics Complete.xlsx`
 
 ---
 
@@ -33,15 +33,11 @@ The data spans multiple years. I focused on revenue, product mix, regions, and l
 ---
 
 ## Charts (quick scan)
-![Monthly sales with 3‑month moving average](images/monthly_sales.png)
-
-![Top 10 brands by total sales](images/top10_brands_by_sales.png)
-
-![Sales by category](images/sales_by_category.png)
-
-![Total sales by region](images/sales_by_region.png)
-
-![Total sales by loyalty tier](images/loyalty_revenue_by_tier.png)
+![Monthly sales with 3-month moving average](./monthly_sales.png)
+![Top 10 brands by total sales](./top10_brands_by_sales.png)
+![Sales by category](./sales_by_category.png)
+![Total sales by region](./sales_by_region.png)
+![Total sales by loyalty tier](./loyalty_revenue_by_tier.png)
 
 You can open the workbook to see the underlying pivots:
 - **Monthly Sales (3mo MA)**
@@ -73,18 +69,14 @@ I’ll replace these bullets with specific numbers once I finalize the SQL pass.
 ```
 .
 ├─ README.md
-├─ data/
-│  └─ RETAIL_ANALYTICS_COMPLETE.xlsx
-├─ images/
-│  ├─ monthly_sales.png
-│  ├─ top10_brands_by_sales.png
-│  ├─ sales_by_category.png
-│  ├─ sales_by_region.png
-│  └─ loyalty_revenue_by_tier.png
-├─ docs/
-│  └─ Executive_Summary.pdf
-└─ sql/          # will add DDL + queries here next
-```
+├─ Retail Analytics Complete.xlsx
+├─ monthly_sales.png
+├─ top10_brands_by_sales.png
+├─ sales_by_category.png
+├─ sales_by_region.png
+├─ loyalty_revenue_by_tier.png
+└─ David_Ramirez_Project_Executive_Summary.pdf
+
 
 ---
 
